@@ -63,7 +63,7 @@ public class FinalizarLeilaoServiceTest {
         try{
             service.finalizarLeiloesExpirados();
             Mockito.verifyNoInteractions(enviadorDeEmails);
-        }catch (Exception e){} 
+        }catch (Exception e){}
     }
 
     private List<Leilao> leiloes() {
